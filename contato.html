@@ -25,12 +25,15 @@
   <main>
 ‹form>
 ‹label for="nomesobrenome">Nome e sobrenome‹/label>
-‹input type="text" id="nomesobrenone",
+‹input type="text" id="nomesobrenone" class="input-padrao" required>
 ‹label for="email">Email‹/label>
-‹input type="text" id="email",
+‹input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 ‹label for="telefone">Telefone‹/label>
-<input type="text" id="telefone">
+<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 ‹input type="submit" value="Enviar formulário"›
+
+<label for="mensagem">Mensagem</label>
+ <texturea cols="70" rows="10" id="mensagem" class="input-padrao" required></texturea>   
 </form>
 </main>
 ‹footer>
